@@ -1,0 +1,78 @@
+this projet name morpion is a little game which played enter two terminals.
+
+Exemple using :
+./morpion
+my_pid: 12345
+waiting for enemy connection...
+
+./navy 12345
+my_pid: 6789
+successfully connected
+
+if the 1st player has connected he display : enemy connected
+
+after, the game begining and is at the 1st player to play
+
+
+enemy connected
+
+   | 1 | 2 | 3 |
+ - + - + - + - +
+ 1 | . | . | . |
+ - + - + - + - +
+ 2 | . | . | . |
+ - + - + - + - +
+ 3 | . | . | . |
+ - + - + - + - +
+
+line: 1 
+colone: 2
+
+   | 1 | 2 | 3 |
+ - + - + - + - +
+ 1 | . | x | . |
+ - + - + - + - +
+ 2 | . | . | . |
+ - + - + - + - +
+ 3 | . | . | . |
+ - + - + - + - +
+
+waiting for enemy's attack...
+
+and 2nd player attack
+
+successfully connected
+
+   | 1 | 2 | 3 |
+ - + - + - + - +
+ 1 | . | . | . |
+ - + - + - + - +
+ 2 | . | . | . |
+ - + - + - + - +
+ 3 | . | . | . |
+ - + - + - + - +
+
+waiting for enemy's attack...
+
+   | 1 | 2 | 3 |
+ - + - + - + - +
+ 1 | . | x | . |
+ - + - + - + - +
+ 2 | . | . | . |
+ - + - + - + - +
+ 3 | . | . | . |
+ - + - + - + - +
+
+line: 1
+colone: 1
+
+   | 1 | 2 | 3 |
+ - + - + - + - +
+ 1 | o | x | . |
+ - + - + - + - +
+ 2 | . | . | . |
+ - + - + - + - +
+ 3 | . | . | . |
+ - + - + - + - +
+
+waiting for enemy's attack...
