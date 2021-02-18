@@ -5,7 +5,7 @@ Exemple using :
 my_pid: 12345
 waiting for enemy connection...
 
-./navy 12345
+./morpion 12345
 my_pid: 6789
 successfully connected
 
